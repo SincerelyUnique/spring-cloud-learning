@@ -11,3 +11,5 @@ config-server和config-client所用的版本保持一致
 遇到的问题：
 1. 启动之前的demo-server，发现没有config-server和config-client的注册信息
 原因是没有在sb启动类上添加注解@EnableEurekaClient
+
+参考博客：http://blog.csdn.net/forezp/article/details/70037291
