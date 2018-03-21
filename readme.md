@@ -1,0 +1,2 @@
+01service registry
+服务注册与发现简单例子，demo-server为服务注册中心，可以从页面访问端口8761，client01为服务提供者，启动后会自动注册到demo-server
