@@ -1,0 +1,12 @@
+## Eureka注册服务中心端口为8761
+## register-with-eureka: false和fetch-registry: false说明这是一个Eureka Server
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
