@@ -13,3 +13,7 @@ config-server和config-client所用的版本保持一致
 原因是没有在sb启动类上添加注解@EnableEurekaClient
 
 参考博客：http://blog.csdn.net/forezp/article/details/70037291
+
+注意：
+1. 首先确定项目config-client与config-service的spring-boot,spring-cloud的依赖版本要一致
+2. 配置文件命名,要遵循一定规则,如果项目config-client里命名为config-client,那配置文件就应该是config-client-**.properties
