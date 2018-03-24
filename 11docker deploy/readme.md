@@ -42,7 +42,13 @@ Docker 让开发者可以打包他们的应用以及依赖包到一个可移植�
 
 
 
+访问
+http://184.170.223.6:8761/
+http://184.170.223.6:8763/hi?name=jalen
+
+
 
 参考：
-最好看一下https://yq.aliyun.com/articles/47344
+最好看一下 https://yq.aliyun.com/articles/47344
+
 eureka.instance.prefer-ip-address这条属性可以参考博客：http://www.itmuch.com/spring-cloud-code-read/spring-cloud-code-read-eureka-registry-ip/
