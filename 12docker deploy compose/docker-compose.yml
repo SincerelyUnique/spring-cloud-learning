@@ -1,0 +1,13 @@
+version: '3'
+services:
+  eureka-server:
+    image: jalen/demo-eureka-server
+    restart: always
+    ports:
+      - 8761:8761
+
+  service-hi:
+    image: jalen/demo-service-hi
+    restart: always
+    ports:
+      - 8763:8763
